@@ -4,9 +4,9 @@
   "private": true,
   "description": "Site web professionnel, chaleureux et moderne pour Sonia ASBL",
   "scripts": {
-    "dev": "vite \"/Users/youba/Desktop/ Sonia ASBL /\"",
-    "build": "vite build \"/Users/youba/Desktop/ Sonia ASBL /\"",
-    "preview": "vite preview \"/Users/youba/Desktop/ Sonia ASBL /\""
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^5.2.0"
