@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sonia ASBL | Soutien aux parents d'enfants porteurs de handicap à Bruxelles</title>
+  <meta name="description" content="Sonia ASBL accompagne, écoute et soutient les parents d'enfants porteurs de handicap en Belgique. Découvrez notre mission, nos services d'accompagnement et nos groupes de parole.">
+  <meta name="keywords" content="ASBL, handicap, parents, enfants, soutien, accompagnement, Bruxelles, Belgique, groupe de parole, aide aux familles">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Sonia ASBL | Soutien aux parents d'enfants porteurs de handicap">
+  <meta property="og:description" content="Accompagner les parents, soutenir les enfants, créer plus d'espoir. Une approche humaine et bienveillante à Bruxelles.">
+  <meta property="og:image" content="assets/hero-parent.png">
+  
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo" aria-label="Sonia ASBL - Retour à l'accueil">
+        <!-- Heart leaf SVG logo representing care and growth -->
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="var(--accent)" stroke="var(--primary)"/>
+          <circle cx="12" cy="9.5" r="2.5" fill="none" stroke="var(--bg-primary)" stroke-width="2"/>
+        </svg>
+        <span>Sonia</span>
+      </a>
+      
+      <!-- Desktop Menu -->
+      <nav class="nav-menu" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="mission.html" class="nav-link">Notre mission</a></li>
+          <li><a href="actualites.html" class="nav-link">Actualités</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="falc-toggle-container">
+        <button class="falc-toggle-btn" aria-label="Version Facile à Lire et à Comprendre">
+          <i data-lucide="accessibility"></i>
+          <span>Version FALC (Facile à lire)</span>
+        </button>
+      </div>
+      
+      <div class="nav-actions">
+        <a href="don.html" class="btn btn-accent">Faire un don</a>
+      </div>
+      
+      <!-- Mobile menu trigger -->
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Ouvrir le menu">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION OVERLAY -->
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <nav aria-label="Navigation mobile">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Accueil</a></li>
+        <li><a href="mission.html" class="mobile-nav-link">Notre mission</a></li>
+        <li><a href="actualites.html" class="mobile-nav-link">Actualités</a></li>
+        <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+        <li><a href="don.html" class="mobile-nav-link btn btn-accent" style="color: white; margin-top: 1rem;">Faire un don</a></li>
+        <li class="mobile-falc-li">
+          <button class="falc-toggle-btn" aria-label="Version Facile à Lire et à Comprendre">
+            <i data-lucide="accessibility"></i>
+            <span>Version FALC (Facile à lire)</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <!-- 1. HERO SECTION -->
+    <section class="hero section">
+      <div class="container grid-2">
+        <div class="hero-content">
+          <span class="hero-tagline">Vous n'êtes pas seuls</span>
+          <h1>Soutenir les parents, accompagner les enfants, créer plus d'espoir.</h1>
+          <p class="hero-subtitle text-standard">Une ASBL dédiée aux parents d'enfants porteurs de handicap, avec une approche humaine, bienveillante et proche des familles.</p>
+          <div class="hero-subtitle text-falc">
+            <p>Nous aidons les <span class="falc-keyword">parents</span> d'enfants avec un handicap. Nous écoutons et soutenons votre <span class="falc-keyword">famille</span> à Bruxelles.</p>
+          </div>
+          <div class="btn-group">
+            <a href="contact.html" class="btn btn-primary btn-large">
+              <i data-lucide="message-square"></i> Nous contacter
+            </a>
+            <a href="mission.html" class="btn btn-outline btn-large">Découvrir notre mission</a>
+          </div>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="assets/hero-parent.png" alt="Une mère souriante serrant tendrement son enfant dans ses bras au milieu d'un jardin ensoleillé" class="hero-image" width="600" height="480">
+          <div class="hero-badge-float">
+            <div class="hero-badge-icon">
+              <i data-lucide="heart"></i>
+            </div>
+            <div class="hero-badge-text">
+              Déjà des dizaines de<br>familles soutenues
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. SECTION MISSION (3 cartes) -->
+    <section class="section section-warm">
+      <div class="container">
+        <div class="text-center max-w-800">
+          <span class="badge">Notre engagement</span>
+          <h2>Notre mission</h2>
+          <p class="intro-lead text-standard">Nous accompagnons les parents d'enfants porteurs de handicap dans leur parcours quotidien, avec écoute, soutien, information et présence humaine. Notre objectif est de ne laisser aucune famille seule face aux difficultés.</p>
+          <div class="intro-lead text-falc">
+            <p>Notre but est simple : <strong>vous aider</strong> dans votre vie de tous les jours.</p>
+            <ul>
+              <li>Nous vous <strong>écoutons</strong> sans vous juger.</li>
+              <li>Nous vous aidons pour les <strong>papiers administratifs</strong>.</li>
+              <li>Nous vous proposons des <strong>moments de repos</strong>.</li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="grid-3" style="margin-top: 3rem;">
+          <!-- Card 1 -->
+          <div class="card">
+            <div class="card-icon">
+              <i data-lucide="phone-call"></i>
+            </div>
+            <h3 class="card-title">Écoute & orientation</h3>
+            <p>Un espace bienveillant pour déposer vos craintes, vos questions, et être orienté vers les bons professionnels et institutions de soins.</p>
+          </div>
+          <!-- Card 2 -->
+          <div class="card">
+            <div class="card-icon accent-icon">
+              <i data-lucide="users"></i>
+            </div>
+            <h3 class="card-title">Soutien aux parents</h3>
+            <p>Des ateliers pratiques et des conseils pour vous aider à surmonter les démarches administratives, médicales et le quotidien souvent lourd.</p>
+          </div>
+          <!-- Card 3 -->
+          <div class="card">
+            <div class="card-icon">
+              <i data-lucide="megaphone"></i>
+            </div>
+            <h3 class="card-title">Sensibilisation au handicap</h3>
+            <p>Parce que le regard de la société doit changer, nous sensibilisons les écoles, les institutions et le grand public pour plus d'inclusion.</p>
+          </div>
+        </div>    <!-- 3. SECTION "VOUS ÊTES..." -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center max-w-600">
+          <span class="badge badge-accent">Trouver votre parcours</span>
+          <h2>Vous êtes...</h2>
+          <p>Notre ASBL propose des réponses personnalisées et des opportunités d'engagement pour chacun.</p>
+        </div>
+
+        <div class="pathway-grid">
+          <!-- Pathway 1 -->
+          <div class="pathway-card">
+            <div class="pathway-icon">
+              <i data-lucide="users"></i>
+            </div>
+            <h3 class="pathway-title">Un parent / Une famille</h3>
+            <p class="pathway-desc">Trouvez une écoute attentive, des conseils administratifs, un soutien moral, notre halte-accueil de répit ou nos groupes de parole pour ne plus être seuls face au handicap.</p>
+            <a href="contact.html" class="btn btn-primary" style="width: 100%;">Demander un soutien</a>
+          </div>
+
+          <!-- Pathway 2 -->
+          <div class="pathway-card">
+            <div class="pathway-icon">
+              <i data-lucide="heart"></i>
+            </div>
+            <h3 class="pathway-title">Un parrain / Un bénévole</h3>
+            <p class="pathway-desc">Offrez quelques heures par mois de votre temps pour parrainer un enfant en situation de handicap, animer des sorties, ou offrir un moment de répit à ses parents.</p>
+            <a href="mission.html" class="btn btn-outline" style="width: 100%;">Devenir parrain</a>
+          </div>
+
+          <!-- Pathway 3 -->
+          <div class="pathway-card">
+            <div class="pathway-icon">
+              <i data-lucide="sparkles"></i>
+            </div>
+            <h3 class="pathway-title">Un donateur / Une entreprise</h3>
+            <p class="pathway-desc">Soutenez directement nos actions gratuites auprès des familles bruxelloises. Vos dons ouvrent droit à une déduction fiscale de 45% en Belgique dès 40€/an.</p>
+            <a href="don.html" class="btn btn-accent" style="color: white; width: 100%;">Faire un don</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SECTION SERVICES (6 cartes) -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="text-center max-w-600">
+          <span class="badge">Nos services</span>
+          <h2>Comment nous vous soutenons</h2>
+          <p>Chaque situation est unique. Nous proposons un accompagnement sur mesure pour favoriser l'inclusion et le répit des familles.</p>
+        </div>
+
+        <div class="grid-3" style="margin-top: 3.5rem;">
+          <!-- Service 1 -->
+          <div class="card">
+            <div class="card-icon"><i data-lucide="heart-handshake"></i></div>
+            <h3 class="card-title">Accompagnement des parents</h3>
+            <p>Une écoute personnalisée, à domicile ou dans nos locaux, pour surmonter les moments de doute et de fatigue.</p>
+          </div>
+          <!-- Service 2 -->
+          <div class="card">
+            <div class="card-icon"><i data-lucide="home"></i></div>
+            <h3 class="card-title">Halte-accueil « La Récré »</h3>
+            <p>Un espace de répit sécurisé pour les enfants de 0 à 6 ans, permettant aux parents de s'offrir du temps pour souffler.</p>
+          </div>
+          <!-- Service 3 -->
+          <div class="card">
+            <div class="card-icon"><i data-lucide="messages-square"></i></div>
+            <h3 class="card-title">Groupes de parole</h3>
+            <p>Un espace sécurisant et chaleureux pour échanger avec d'autres parents de Bruxelles vivant des situations similaires.</p>
+          </div>
+          <!-- Service 4 -->
+          <div class="card">
+            <div class="card-icon"><i data-lucide="smile"></i></div>
+            <h3 class="card-title">Activités de répit et loisirs</h3>
+            <p>Des événements ludiques et culturels adaptés (stages, sorties) pour favoriser les rencontres et le lien social.</p>
+          </div>
+          <!-- Service 5 -->
+          <div class="card">
+            <div class="card-icon"><i data-lucide="graduation-cap"></i></div>
+            <h3 class="card-title">Aide à l'inclusion scolaire</h3>
+            <p>Accompagnement et conseils pour l'orientation scolaire, la reconnaissance du handicap et l'intégration en école spécialisée ou ordinaire.</p>
+          </div>
+          <!-- Service 6 -->
+          <div class="card">
+            <div class="card-icon"><i data-lucide="file-text"></i></div>
+            <h3 class="card-title">Soutien administratif complet</h3>
+            <p>Une aide concrète pour obtenir vos aides financières belges (allocations familiales supplémentaires, reconnaissance handicap).</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. SECTION HISTOIRE PERSONNELLE -->
+    <section class="section">
+      <div class="container">
+        <div class="founder-card">
+          <div class="founder-image-wrapper">
+            <img src="assets/fondatrice.png" alt="Sonia, fondatrice de l'ASBL Sonia, souriante et chaleureuse" class="founder-img">
+            <span class="founder-quote-badge">Mot de la fondatrice</span>
+          </div>
+          <div class="founder-info">
+            <h2>Une ASBL née d'un engagement profond</h2>
+            <p style="font-size: 1.1rem; font-style: italic; margin-bottom: 1.5rem; color: var(--text-main);">"Chaque enfant mérite d'être accompagné avec dignité. Chaque parent mérite de trouver une main tendue pour ne pas sombrer sous le poids du quotidien."</p>
+            <p>Derrière cette ASBL, il y a une histoire vécue, proche des familles et consciente des défis immenses que rencontrent les parents d'enfants porteurs de handicap. Ce projet est né d'une volonté simple : apporter plus de soutien, plus d'écoute et plus de dignité aux familles belges.</p>
+            <p>Nous savons que le chemin est long et parfois parsemé d'obstacles administratifs ou de solitude. Sonia ASBL a été créée pour être ce havre de bienveillance et de solidarité concrète.</p>
+            <div class="founder-signature">
+              <div class="founder-name">Sonia</div>
+              <div class="founder-title">Fondatrice & Coordinatrice de Sonia ASBL</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. SECTION IMPACT (Statistiques) -->
+    <section class="section section-warm">
+      <div class="container">
+        <div class="text-center max-w-600" style="margin-bottom: 3rem;">
+          <span class="badge">Notre impact en Belgique</span>
+          <h2>Des actions concrètes</h2>
+          <p>Chaque chiffre représente une famille, un parent écouté, ou un sourire retrouvé. Nous grandissons chaque jour grâce à votre solidarité.</p>
+        </div>
+
+        <div class="stats-grid">
+          <!-- Stat 1 -->
+          <div class="stat-item">
+            <div class="stat-number">45+</div>
+            <div class="stat-label">Familles accompagnées</div>
+            <div class="stat-sub">En 2025/2026</div>
+          </div>
+          <!-- Stat 2 -->
+          <div class="stat-item">
+            <div class="stat-number">120+</div>
+            <div class="stat-label">Parents écoutés</div>
+            <div class="stat-sub">Permanences & écoute</div>
+          </div>
+          <!-- Stat 3 -->
+          <div class="stat-item">
+            <div class="stat-number">35+</div>
+            <div class="stat-label">Activités organisées</div>
+            <div class="stat-sub">Rencontres & répit</div>
+          </div>
+          <!-- Stat 4 -->
+          <div class="stat-item">
+            <div class="stat-number">15+</div>
+            <div class="stat-label">Partenaires solidaires</div>
+            <div class="stat-sub">Réseau d'aide</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. SECTION TÉMOIGNAGES -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center max-w-600" style="margin-bottom: 4rem;">
+          <span class="badge">Paroles de familles</span>
+          <h2>Ce que disent les parents</h2>
+          <p>Ils nous accordent leur confiance et partagent leur vécu au sein de notre communauté.</p>
+        </div>
+
+        <div class="grid-3">
+          <!-- Testimonial 1 -->
+          <div class="card testimonial-card">
+            <p class="testimonial-quote">"Enfin un espace chaleureux et sans jugement où l'on se sent réellement écouté et compris dans nos difficultés quotidiennes."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">M</div>
+              <div class="author-info">
+                <span class="author-name">Marie-Laure</span>
+                <span class="author-role">Maman de Lucas (8 ans, autisme)</span>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 2 -->
+          <div class="card testimonial-card">
+            <p class="testimonial-quote">"Un soutien précieux et concret pour les parents qui se sentent parfois extrêmement isolés face aux démarches scolaires."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">J</div>
+              <div class="author-info">
+                <span class="author-name">Jean-François</span>
+                <span class="author-role">Papa de Chloé (11 ans, polyhandicap)</span>
+              </div>
+            </div>
+          </div>
+          <!-- Testimonial 3 -->
+          <div class="card testimonial-card">
+            <p class="testimonial-quote">"Une initiative profondément humaine, nécessaire et porteuse d'espoir pour l'avenir de nos enfants en Belgique."</p>
+            <div class="testimonial-author">
+              <div class="testimonial-avatar">A</div>
+              <div class="author-info">
+                <span class="author-name">Amina</span>
+                <span class="author-role">Maman de Yassine (5 ans, trisomie 21)</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION (Accordion) -->
+    <section class="section section-warm">
+      <div class="container max-w-800">
+        <div class="text-center">
+          <span class="badge">Foire Aux Questions</span>
+          <h2>Des réponses à vos questions</h2>
+          <p>Vous vous posez des questions sur le fonctionnement de Sonia ASBL ? Voici quelques réponses. Pour toute autre demande, contactez-nous directement.</p>
+        </div>
+
+        <div class="faq-wrapper">
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Comment se déroule le premier contact avec l'ASBL ?</span>
+              <i data-lucide="chevron-down" class="faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p>Le premier contact se fait généralement par téléphone, WhatsApp ou e-mail. Nous planifions ensuite une rencontre simple et informelle chez vous ou dans nos bureaux pour faire connaissance, sans aucune démarche contraignante.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>L'accompagnement et l'écoute sont-ils payants ?</span>
+              <i data-lucide="chevron-down" class="faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p>Non. L'ensemble de nos services d'écoute, d'orientation administrative et de participation aux groupes de parole est entièrement gratuit pour les familles. L'ASBL fonctionne grâce aux dons et aux subventions.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Accompagnez-vous toutes les formes de handicap ?</span>
+              <i data-lucide="chevron-down" class="faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p>Oui. Sonia ASBL soutient les parents d'enfants présentant tout type de handicap (physique, mental, sensoriel, maladies rares, troubles autistiques ou TDAH). Nous croyons que les défis parentaux ont une résonance commune.</p>
+            </div>
+          </div>
+
+          <div class="faq-item">
+            <button class="faq-trigger" aria-expanded="false">
+              <span>Comment puis-je aider l'ASBL si je ne suis pas parent ?</span>
+              <i data-lucide="chevron-down" class="faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p>Vous pouvez soutenir notre mission de plusieurs manières : en faisant un don financier (déductible des impôts dès 40€/an), en devenant bénévole pour nous aider lors d'activités de répit, ou simplement en partageant notre message autour de vous.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. SECTION APPEL A L'ACTION -->
+    <section class="section">
+      <div class="container">
+        <div class="cta-banner">
+          <h2>Vous êtes parent, proche ou souhaitez aider ?</h2>
+          <p>Chaque famille mérite d'être écoutée. Contactez-nous pour en savoir plus, demander un accompagnement ou soutenir notre mission.</p>
+          <div class="btn-group">
+            <a href="tel:+32470000000" class="btn btn-primary btn-large" aria-label="Appeler l'ASBL Sonia au téléphone">
+              <i data-lucide="phone"></i> Appeler maintenant
+            </a>
+            <a href="contact.html" class="btn btn-outline-white btn-large">
+              <i data-lucide="mail"></i> Envoyer un message
+            </a>
+            <a href="don.html" class="btn btn-accent btn-large">
+              <i data-lucide="heart"></i> Faire un don
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FLOATING ACTIONS (WhatsApp & Scroll Top) -->
+  <div class="floating-actions">
+    <a href="https://wa.me/32470000000" class="btn-float btn-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contacter Sonia ASBL sur WhatsApp">
+      <i data-lucide="message-circle" style="width: 2rem; height: 2rem;"></i>
+    </a>
+    <button class="btn-float btn-scroll-top" id="scrollTopBtn" aria-label="Retourner en haut de la page">
+      <i data-lucide="arrow-up" style="width: 1.5rem; height: 1.5rem;"></i>
+    </button>
+  </div>
+
+  <!-- 9. FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo footer-logo" aria-label="Sonia ASBL - Retour à l'accueil">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="var(--accent)" stroke="var(--bg-secondary)"/>
+            </svg>
+            <span style="color: var(--bg-secondary);">Sonia</span>
+          </a>
+          <p>Une ASBL engagée au cœur de Bruxelles pour briser la solitude des parents et redonner espoir aux familles d'enfants en situation de handicap.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Suivre Sonia ASBL sur Facebook"><i data-lucide="facebook"></i></a>
+            <a href="#" class="social-icon" aria-label="Suivre Sonia ASBL sur Instagram"><i data-lucide="instagram"></i></a>
+            <a href="https://wa.me/32470000000" class="social-icon" aria-label="Contacter Sonia ASBL sur WhatsApp"><i data-lucide="message-circle"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4>L'Association</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Accueil</a></li>
+            <li><a href="mission.html" class="footer-link">Notre mission</a></li>
+            <li><a href="actualites.html" class="footer-link">Actualités</a></li>
+            <li><a href="contact.html" class="footer-link">Nous contacter</a></li>
+            <li><a href="don.html" class="footer-link" style="color: var(--accent); font-weight: 600;">Faire un don</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact & Info</h4>
+          <div class="footer-contact-item">
+            <i data-lucide="phone" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              <a href="tel:+32470000000">+32 (0) 470 00 00 00</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i data-lucide="mail" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              <a href="mailto:contact@sonia.be">contact@sonia.be</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i data-lucide="map-pin" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              Avenue Louise 150,<br>1050 Bruxelles, Belgique
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sonia ASBL. Tous droits réservés. Numéro d'entreprise : 0800.000.000</p>
+        <div class="footer-legal-links">
+          <a href="#" class="footer-legal-link">Mentions légales</a>
+          <a href="#" class="footer-legal-link">Confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

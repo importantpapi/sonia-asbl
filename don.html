@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Soutenir & Faire un don | Sonia ASBL - Solidarité Handicap</title>
+  <meta name="description" content="Soutenez les parents d'enfants porteurs de handicap à Bruxelles. Votre don permet de financer nos groupes de parole, activités de répit et écoute personnalisée.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo" aria-label="Sonia ASBL - Retour à l'accueil">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="var(--accent)" stroke="var(--primary)"/>
+          <circle cx="12" cy="9.5" r="2.5" fill="none" stroke="var(--bg-primary)" stroke-width="2"/>
+        </svg>
+        <span>Sonia</span>
+      </a>
+      
+      <!-- Desktop Menu -->
+      <nav class="nav-menu" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="mission.html" class="nav-link">Notre mission</a></li>
+          <li><a href="actualites.html" class="nav-link">Actualités</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="falc-toggle-container">
+        <button class="falc-toggle-btn" aria-label="Version Facile à Lire et à Comprendre">
+          <i data-lucide="accessibility"></i>
+          <span>Version FALC (Facile à lire)</span>
+        </button>
+      </div>
+      
+      <div class="nav-actions">
+        <a href="don.html" class="btn btn-accent">Faire un don</a>
+      </div>
+      
+      <!-- Mobile menu trigger -->
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Ouvrir le menu">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION OVERLAY -->
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <nav aria-label="Navigation mobile">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Accueil</a></li>
+        <li><a href="mission.html" class="mobile-nav-link">Notre mission</a></li>
+        <li><a href="actualites.html" class="mobile-nav-link">Actualités</a></li>
+        <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+        <li><a href="don.html" class="mobile-nav-link btn btn-accent" style="color: white; margin-top: 1rem;">Faire un don</a></li>
+        <li class="mobile-falc-li">
+          <button class="falc-toggle-btn" aria-label="Version Facile à Lire et à Comprendre">
+            <i data-lucide="accessibility"></i>
+            <span>Version FALC (Facile à lire)</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <!-- HERO DE LA PAGE DON -->
+    <section class="section section-warm text-center">
+      <div class="container max-w-800">
+        <span class="badge badge-accent">Solidarité</span>
+        <h1 style="margin-bottom: 1.5rem;">Soutenir notre action</h1>
+        <p class="intro-lead text-standard" style="margin-bottom: 0;">Chaque don, petit ou grand, nous aide directement à accompagner une famille, financer un groupe de parole et offrir des moments de répit essentiels pour les parents.</p>
+        <p class="intro-lead text-falc" style="margin-bottom: 0;">Votre argent nous aide à accompagner les familles et donner du repos aux parents. Merci !</p>
+      </div>
+    </section>
+
+    <!-- CONTENT GRID -->
+    <section class="section">
+      <div class="container don-grid">
+        
+        <!-- TEXT INFOS -->
+        <div>
+          <h2 style="font-size: 1.85rem; margin-bottom: 1.5rem;">Pourquoi votre aide est précieuse ?</h2>
+          <p>Sonia ASBL est une association à taille humaine qui dépend de la générosité publique pour mener à bien ses missions gratuites auprès des familles. Vos dons sont affectés en toute transparence :</p>
+          
+          <ul class="why-list" style="margin-top: 2rem; margin-bottom: 2rem;">
+            <li class="why-item">
+              <div class="why-check" style="background-color: var(--accent-light); color: var(--accent);"><i data-lucide="heart"></i></div>
+              <div>
+                <h4 class="why-title">Financement des groupes de parole</h4>
+                <p class="why-desc">Location de salles chaleureuses, présence d'un psychologue ou animateur professionnel qualifié.</p>
+              </div>
+            </li>
+            <li class="why-item">
+              <div class="why-check" style="background-color: var(--accent-light); color: var(--accent);"><i data-lucide="shield"></i></div>
+              <div>
+                <h4 class="why-title">Aide administrative et visites à domicile</h4>
+                <p class="why-desc">Financement des frais de déplacement de nos bénévoles pour accompagner les parents à mobilité réduite.</p>
+              </div>
+            </li>
+            <li class="why-item">
+              <div class="why-check" style="background-color: var(--accent-light); color: var(--accent);"><i data-lucide="sparkles"></i></div>
+              <div>
+                <h4 class="why-title">Activités de répit inclusives</h4>
+                <p class="why-desc">Organisation d'ateliers ludiques et de sorties familiales sécurisées et adaptées à Bruxelles.</p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="tax-banner">
+            <div class="tax-banner-icon">
+              <i data-lucide="info"></i>
+            </div>
+            <p class="tax-banner-text">
+              <strong>Déduction fiscale en Belgique :</strong> En tant que donateur belge, tout don cumulé de <strong>40 € ou plus</strong> par an vous donne droit à une attestation fiscale vous permettant de <strong>réduire vos impôts de 45%</strong>. Un don de 100€ ne vous coûte réellement que 55€.
+            </p>
+          </div>
+        </div>
+
+        <!-- FORMULAIRE DE DON DYNAMIQUE -->
+        <div class="donation-box">
+          <h3 style="font-size: 1.5rem; margin-bottom: 1.5rem; color: var(--primary);">Faire un don en ligne</h3>
+          
+          <form id="donationForm" novalidate>
+            <!-- Frequency toggle -->
+            <div class="form-group" style="margin-bottom: 1.5rem;">
+              <span class="form-label">Fréquence du don</span>
+              <div style="display: flex; gap: 1rem; margin-top: 0.5rem;">
+                <label style="display: flex; align-items: center; gap: 0.5rem; font-weight: 600; cursor: pointer;">
+                  <input type="radio" name="donationFrequency" id="donTypeUnique" checked style="accent-color: var(--primary);"> Don unique
+                </label>
+                <label style="display: flex; align-items: center; gap: 0.5rem; font-weight: 600; cursor: pointer;">
+                  <input type="radio" name="donationFrequency" id="donTypeMonthly" style="accent-color: var(--primary);"> Don mensuel
+                </label>
+              </div>
+            </div>
+
+            <!-- Predefined amounts -->
+            <div class="form-group">
+              <span class="form-label">Montant du don</span>
+              <div class="donation-tabs" style="margin-top: 0.5rem;">
+                <button type="button" class="donation-tab" data-amount="20">20€</button>
+                <button type="button" class="donation-tab active" data-amount="50">50€</button>
+                <button type="button" class="donation-tab" data-amount="100">100€</button>
+                <button type="button" class="donation-tab" data-amount="custom">Autre</button>
+              </div>
+            </div>
+
+            <!-- Slider adjustment -->
+            <div class="form-group donation-slider-group">
+              <div class="donation-slider-label">
+                <span class="form-label" style="margin-bottom: 0;">Ajuster précisément le montant</span>
+              </div>
+              <input type="range" id="donationSlider" class="donation-slider" min="5" max="250" value="50" step="5">
+            </div>
+
+            <!-- Custom amount input -->
+            <div class="form-group custom-donation-group">
+              <label for="customDonationAmount" class="form-label">Saisir ou ajuster le montant (€)</label>
+              <div class="custom-donation-input-wrapper">
+                <input type="number" id="customDonationAmount" class="form-control custom-donation-input" value="50" min="5" step="5" required>
+              </div>
+            </div>
+
+            <!-- Real cost breakdown card -->
+            <div class="cost-breakdown-card">
+              <div class="breakdown-row">
+                <span>Montant de votre don :</span>
+                <span class="breakdown-value" id="breakdownGiftAmount">50,00 €</span>
+              </div>
+              <div class="breakdown-row">
+                <span>Réduction d'impôt (45%) :</span>
+                <span class="breakdown-value" style="color: #2E7D32;" id="breakdownTaxReduction">- 22,50 €</span>
+              </div>
+              <div class="breakdown-row" style="margin-bottom: 1rem;">
+                <div id="breakdownTaxInfo" class="tax-badge-info">
+                  <i data-lucide="sparkles"></i> Éligible à une attestation fiscale
+                </div>
+              </div>
+              <div class="breakdown-row total">
+                <span>Coût réel après impôt :</span>
+                <span class="breakdown-value" id="breakdownRealCost">27,50 €</span>
+              </div>
+            </div>
+            <div style="margin-bottom: 1.5rem;"></div>
+
+            <button type="submit" class="btn btn-accent btn-large" style="width: 100%;">
+              <i data-lucide="heart"></i> Confirmer mon don
+            </button>
+
+            <div id="donFeedback" class="form-feedback" role="alert" style="margin-top: 1.5rem;"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIREMENT BANCAIRE DIRECT -->
+    <section class="section section-warm">
+      <div class="container max-w-800">
+        <div class="text-center" style="margin-bottom: 3rem;">
+          <span class="badge">Virement direct</span>
+          <h2>Faire un don par virement bancaire</h2>
+          <p>Vous préférez faire un virement manuel depuis votre application bancaire ? Voici les coordonnées officielles de notre compte associatif en Belgique.</p>
+        </div>
+
+        <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 2.5rem; box-shadow: var(--shadow-sm);">
+          <div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem; font-size: 1.05rem;">
+            <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem;">
+              <span style="font-weight: 600; color: var(--text-muted);">Bénéficiaire</span>
+              <span style="font-weight: 700; color: var(--text-main);">SONIA ASBL</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem;">
+              <span style="font-weight: 600; color: var(--text-muted);">IBAN</span>
+              <span style="font-weight: 700; color: var(--primary); font-family: monospace; letter-spacing: 0.05em;">BE68 0000 0000 0000</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; border-bottom: 1px solid var(--border-color); padding-bottom: 0.75rem;">
+              <span style="font-weight: 600; color: var(--text-muted);">BIC / SWIFT</span>
+              <span style="font-weight: 700; color: var(--text-main); font-family: monospace;">GEBABEBBXXX</span>
+            </div>
+            <div style="display: flex; justify-content: space-between; padding-bottom: 0.75rem;">
+              <span style="font-weight: 600; color: var(--text-muted);">Communication</span>
+              <span style="font-weight: 700; color: var(--accent);">Don Sonia ASBL + Votre Nom</span>
+            </div>
+          </div>
+          <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 2rem; text-align: center; margin-bottom: 0;">
+            * Pensez à mentionner votre adresse postale ou e-mail dans la communication si vous souhaitez recevoir votre attestation fiscale en fin d'année.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FLOATING ACTIONS -->
+  <div class="floating-actions">
+    <a href="https://wa.me/32470000000" class="btn-float btn-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contacter Sonia ASBL sur WhatsApp">
+      <i data-lucide="message-circle" style="width: 2rem; height: 2rem;"></i>
+    </a>
+    <button class="btn-float btn-scroll-top" id="scrollTopBtn" aria-label="Retourner en haut de la page">
+      <i data-lucide="arrow-up" style="width: 1.5rem; height: 1.5rem;"></i>
+    </button>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo footer-logo" aria-label="Sonia ASBL - Retour à l'accueil">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="var(--accent)" stroke="var(--bg-secondary)"/>
+            </svg>
+            <span style="color: var(--bg-secondary);">Sonia</span>
+          </a>
+          <p>Une ASBL engagée au cœur de Bruxelles pour briser la solitude des parents et redonner espoir aux familles d'enfants en situation de handicap.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Suivre Sonia ASBL sur Facebook"><i data-lucide="facebook"></i></a>
+            <a href="#" class="social-icon" aria-label="Suivre Sonia ASBL sur Instagram"><i data-lucide="instagram"></i></a>
+            <a href="https://wa.me/32470000000" class="social-icon" aria-label="Contacter Sonia ASBL sur WhatsApp"><i data-lucide="message-circle"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4>L'Association</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Accueil</a></li>
+            <li><a href="mission.html" class="footer-link">Notre mission</a></li>
+            <li><a href="actualites.html" class="footer-link">Actualités</a></li>
+            <li><a href="contact.html" class="footer-link">Nous contacter</a></li>
+            <li><a href="don.html" class="footer-link" style="color: var(--accent); font-weight: 600;">Faire un don</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact & Info</h4>
+          <div class="footer-contact-item">
+            <i data-lucide="phone" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              <a href="tel:+32470000000">+32 (0) 470 00 00 00</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i data-lucide="mail" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              <a href="mailto:contact@sonia.be">contact@sonia.be</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i data-lucide="map-pin" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              Avenue Louise 150,<br>1050 Bruxelles, Belgique
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sonia ASBL. Tous droits réservés. Numéro d'entreprise : 0800.000.000</p>
+        <div class="footer-legal-links">
+          <a href="#" class="footer-legal-link">Mentions légales</a>
+          <a href="#" class="footer-legal-link">Confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contactez-nous | Sonia ASBL - Écoute et Accompagnement à Bruxelles</title>
+  <meta name="description" content="Vous n'êtes pas seuls. Contactez Sonia ASBL par téléphone, WhatsApp, e-mail ou via notre formulaire. Nous vous répondons rapidement et en toute confidentialité.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo" aria-label="Sonia ASBL - Retour à l'accueil">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="var(--accent)" stroke="var(--primary)"/>
+          <circle cx="12" cy="9.5" r="2.5" fill="none" stroke="var(--bg-primary)" stroke-width="2"/>
+        </svg>
+        <span>Sonia</span>
+      </a>
+      
+      <!-- Desktop Menu -->
+      <nav class="nav-menu" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="mission.html" class="nav-link">Notre mission</a></li>
+          <li><a href="actualites.html" class="nav-link">Actualités</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="falc-toggle-container">
+        <button class="falc-toggle-btn" aria-label="Version Facile à Lire et à Comprendre">
+          <i data-lucide="accessibility"></i>
+          <span>Version FALC (Facile à lire)</span>
+        </button>
+      </div>
+      
+      <div class="nav-actions">
+        <a href="don.html" class="btn btn-accent">Faire un don</a>
+      </div>
+      
+      <!-- Mobile menu trigger -->
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Ouvrir le menu">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION OVERLAY -->
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <nav aria-label="Navigation mobile">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Accueil</a></li>
+        <li><a href="mission.html" class="mobile-nav-link">Notre mission</a></li>
+        <li><a href="actualites.html" class="mobile-nav-link">Actualités</a></li>
+        <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+        <li><a href="don.html" class="mobile-nav-link btn btn-accent" style="color: white; margin-top: 1rem;">Faire un don</a></li>
+        <li class="mobile-falc-li">
+          <button class="falc-toggle-btn" aria-label="Version Facile à Lire et à Comprendre">
+            <i data-lucide="accessibility"></i>
+            <span>Version FALC (Facile à lire)</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <!-- HERO DE LA PAGE CONTACT -->
+    <section class="section section-warm text-center">
+      <div class="container max-w-800">
+        <span class="badge badge-accent">Prendre contact</span>
+        <h1 style="margin-bottom: 1.5rem;">Nous sommes à votre écoute</h1>
+        <p class="intro-lead text-standard" style="margin-bottom: 0;">Que vous ayez besoin d'un accompagnement, d'une information, d'un moment d'écoute, ou que vous souhaitiez soutenir notre ASBL, nous sommes là pour vous. Vous n'êtes pas seuls.</p>
+        <p class="intro-lead text-falc" style="margin-bottom: 0;">Nous sommes là pour vous aider. Téléphonez-nous, envoyez un message WhatsApp ou écrivez-nous.</p>
+      </div>
+    </section>
+
+    <!-- FORM & INFO -->
+    <section class="section">
+      <div class="container contact-layout">
+        
+        <!-- INFOS DE CONTACT -->
+        <div class="contact-info-panel">
+          <div>
+            <h2 style="font-size: 1.85rem; margin-bottom: 1rem;">Coordonnées de l'ASBL</h2>
+            <p>Notre équipe est à votre disposition pour vous répondre en toute confidentialité.</p>
+          </div>
+
+          <!-- Phone -->
+          <div class="info-card">
+            <div class="info-card-icon"><i data-lucide="phone"></i></div>
+            <div class="info-card-text">
+              <h4>Par téléphone</h4>
+              <p style="margin-bottom: 0.5rem;"><a href="tel:+32470000000" style="font-weight: 700; font-size: 1.1rem;">+32 (0) 470 00 00 00</a></p>
+              <p class="why-desc">Du lundi au vendredi de 9h00 à 18h00. Appel direct et gratuit.</p>
+            </div>
+          </div>
+
+          <!-- WhatsApp -->
+          <div class="info-card">
+            <div class="info-card-icon" style="background-color: #E8F5E9; color: #2E7D32;"><i data-lucide="message-circle"></i></div>
+            <div class="info-card-text">
+              <h4>Par WhatsApp</h4>
+              <p style="margin-bottom: 0.5rem;"><a href="https://wa.me/32470000000" target="_blank" rel="noopener noreferrer" style="font-weight: 700; font-size: 1.1rem; color: #2E7D32;">Discuter avec Sonia</a></p>
+              <p class="why-desc">Pour un message rapide ou une écoute écrite discrète. Réponse rapide.</p>
+            </div>
+          </div>
+
+          <!-- Email -->
+          <div class="info-card">
+            <div class="info-card-icon"><i data-lucide="mail"></i></div>
+            <div class="info-card-text">
+              <h4>Par e-mail</h4>
+              <p style="margin-bottom: 0.5rem;"><a href="mailto:contact@sonia.be" style="font-weight: 700; font-size: 1.1rem;">contact@sonia.be</a></p>
+              <p class="why-desc">Pour les demandes administratives, les partenariats ou les questions détaillées.</p>
+            </div>
+          </div>
+
+          <!-- Adresse -->
+          <div class="info-card">
+            <div class="info-card-icon"><i data-lucide="map-pin"></i></div>
+            <div class="info-card-text">
+              <h4>Nos bureaux</h4>
+              <p class="why-desc" style="font-weight: 600; color: var(--text-main); margin-bottom: 0.25rem;">Avenue Louise 150, 1050 Bruxelles</p>
+              <p class="why-desc">Uniquement sur rendez-visite. Accès PMR garanti.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- FORMULAIRE DE CONTACT -->
+        <div class="form-wrapper">
+          <h2 style="font-size: 1.85rem; margin-bottom: 1.5rem;">Écrivez-nous</h2>
+          <form id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="name" class="form-label">Nom complet *</label>
+              <input type="text" id="name" name="name" class="form-control" placeholder="Votre prénom et votre nom" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="email" class="form-label">Adresse e-mail *</label>
+              <input type="email" id="email" name="email" class="form-control" placeholder="exemple@domaine.be" required>
+            </div>
+
+            <div class="form-group">
+              <label for="phone" class="form-label">Numéro de téléphone (optionnel)</label>
+              <input type="tel" id="phone" name="phone" class="form-control" placeholder="+32 000 00 00 00">
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label">Sujet de votre message *</label>
+              <select id="subject" name="subject" class="form-control" required>
+                <option value="" disabled selected>Sélectionnez un sujet</option>
+                <option value="accompagnement">Je souhaite un accompagnement pour ma famille</option>
+                <option value="benevolat">Je souhaite devenir parrain / bénévole</option>
+                <option value="don">Je souhaite des informations sur les dons</option>
+                <option value="autre">Autre demande</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Votre message *</label>
+              <textarea id="message" name="message" class="form-control" placeholder="Décrivez votre situation ou votre demande en quelques lignes..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <i data-lucide="send"></i> Envoyer mon message
+            </button>
+
+            <div class="form-feedback" id="formFeedback" role="alert"></div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- CARTE DE BRUXELLES / ZONE D'INTERVENTION -->
+    <section class="section section-warm">
+      <div class="container text-center max-w-800">
+        <span class="badge">Zone d'intervention</span>
+        <h2>Notre présence à Bruxelles & environs</h2>
+        <p style="margin-bottom: 3rem;">Nous nous déplaçons directement auprès des familles dans les 19 communes bruxelloises, et organisons nos événements dans des espaces adaptés et accessibles.</p>
+        
+        <!-- Elegant custom map graphic using CSS & HTML for premium feel -->
+        <div style="background-color: var(--bg-secondary); border: 1px solid var(--border-color); border-radius: var(--radius-lg); padding: 3rem; box-shadow: var(--shadow-sm); display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 2rem;">
+          <div style="background-color: var(--primary-light); color: var(--primary); width: 4.5rem; height: 4.5rem; border-radius: var(--radius-pill); display: flex; align-items: center; justify-content: center; font-size: 2rem;">
+            <i data-lucide="map"></i>
+          </div>
+          <div class="max-w-600">
+            <h3 style="margin-bottom: 0.5rem;">Bruxelles-Capitale & Périphérie</h3>
+            <p style="font-size: 0.95rem; margin-bottom: 0;">Ixelles, Uccle, Saint-Gilles, Forest, Schaerbeek, Anderlecht, Jette, Woluwe, Auderghem...<br>Nos équipes de bénévoles se déplacent sans frais chez vous pour des visites à domicile régulières.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FLOATING ACTIONS -->
+  <div class="floating-actions">
+    <a href="https://wa.me/32470000000" class="btn-float btn-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contacter Sonia ASBL sur WhatsApp">
+      <i data-lucide="message-circle" style="width: 2rem; height: 2rem;"></i>
+    </a>
+    <button class="btn-float btn-scroll-top" id="scrollTopBtn" aria-label="Retourner en haut de la page">
+      <i data-lucide="arrow-up" style="width: 1.5rem; height: 1.5rem;"></i>
+    </button>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo footer-logo" aria-label="Sonia ASBL - Retour à l'accueil">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="var(--accent)" stroke="var(--bg-secondary)"/>
+            </svg>
+            <span style="color: var(--bg-secondary);">Sonia</span>
+          </a>
+          <p>Une ASBL engagée au cœur de Bruxelles pour briser la solitude des parents et redonner espoir aux familles d'enfants en situation de handicap.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Suivre Sonia ASBL sur Facebook"><i data-lucide="facebook"></i></a>
+            <a href="#" class="social-icon" aria-label="Suivre Sonia ASBL sur Instagram"><i data-lucide="instagram"></i></a>
+            <a href="https://wa.me/32470000000" class="social-icon" aria-label="Contacter Sonia ASBL sur WhatsApp"><i data-lucide="message-circle"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4>L'Association</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Accueil</a></li>
+            <li><a href="mission.html" class="footer-link">Notre mission</a></li>
+            <li><a href="actualites.html" class="footer-link">Actualités</a></li>
+            <li><a href="contact.html" class="footer-link">Nous contacter</a></li>
+            <li><a href="don.html" class="footer-link" style="color: var(--accent); font-weight: 600;">Faire un don</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact & Info</h4>
+          <div class="footer-contact-item">
+            <i data-lucide="phone" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              <a href="tel:+32470000000">+32 (0) 470 00 00 00</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i data-lucide="mail" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              <a href="mailto:contact@sonia.be">contact@sonia.be</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i data-lucide="map-pin" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              Avenue Louise 150,<br>1050 Bruxelles, Belgique
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sonia ASBL. Tous droits réservés. Numéro d'entreprise : 0800.000.000</p>
+        <div class="footer-legal-links">
+          <a href="#" class="footer-legal-link">Mentions légales</a>
+          <a href="#" class="footer-legal-link">Confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

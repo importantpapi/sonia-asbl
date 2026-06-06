@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notre Mission | Sonia ASBL - Accompagnement du handicap</title>
+  <meta name="description" content="Découvrez les valeurs fondamentales de Sonia ASBL : écoute, dignité, solidarité et proximité. Notre philosophie d'accompagnement inspirée de La Vague pour soutenir les parents.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo" aria-label="Sonia ASBL - Retour à l'accueil">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="var(--accent)" stroke="var(--primary)"/>
+          <circle cx="12" cy="9.5" r="2.5" fill="none" stroke="var(--bg-primary)" stroke-width="2"/>
+        </svg>
+        <span>Sonia</span>
+      </a>
+      
+      <!-- Desktop Menu -->
+      <nav class="nav-menu" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="mission.html" class="nav-link">Notre mission</a></li>
+          <li><a href="actualites.html" class="nav-link">Actualités</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="falc-toggle-container">
+        <button class="falc-toggle-btn" aria-label="Version Facile à Lire et à Comprendre">
+          <i data-lucide="accessibility"></i>
+          <span>Version FALC (Facile à lire)</span>
+        </button>
+      </div>
+      
+      <div class="nav-actions">
+        <a href="don.html" class="btn btn-accent">Faire un don</a>
+      </div>
+      
+      <!-- Mobile menu trigger -->
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Ouvrir le menu">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION OVERLAY -->
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <nav aria-label="Navigation mobile">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Accueil</a></li>
+        <li><a href="mission.html" class="mobile-nav-link">Notre mission</a></li>
+        <li><a href="actualites.html" class="mobile-nav-link">Actualités</a></li>
+        <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+        <li><a href="don.html" class="mobile-nav-link btn btn-accent" style="color: white; margin-top: 1rem;">Faire un don</a></li>
+        <li class="mobile-falc-li">
+          <button class="falc-toggle-btn" aria-label="Version Facile à Lire et à Comprendre">
+            <i data-lucide="accessibility"></i>
+            <span>Version FALC (Facile à lire)</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <!-- HERO DE LA PAGE MISSION -->
+    <section class="section section-warm text-center">
+      <div class="container max-w-800">
+        <span class="badge">Qui sommes-nous ?</span>
+        <h1 style="margin-bottom: 1.5rem;">Notre Mission & Philosophie</h1>
+        <p class="intro-lead text-standard" style="margin-bottom: 0;">Inspirés par la nécessité d'un soutien concret et d'une présence authentique, nous œuvrons chaque jour pour accompagner les familles touchées par le handicap.</p>
+        <p class="intro-lead text-falc" style="margin-bottom: 0;">Nous aidons les familles à Bruxelles. Nous voulons donner du repos et de l'espoir aux parents.</p>
+      </div>
+    </section>
+
+    <!-- LES VALEURS DE L'ASBL -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center max-w-600" style="margin-bottom: 4rem;">
+          <span class="badge">Ce qui nous guide</span>
+          <h2>Nos valeurs fondamentales</h2>
+          <p>Ces quatre piliers définissent chacune de nos actions et chacun de nos échanges avec les parents.</p>
+        </div>
+
+        <div class="grid-2">
+          <!-- Valeur 1 -->
+          <div class="info-card">
+            <div class="info-card-icon"><i data-lucide="heart"></i></div>
+            <div class="info-card-text">
+              <h4>L'écoute inconditionnelle</h4>
+              <p>Nous accueillons chaque parent avec bienveillance, sans jugement. Un espace de parole où la vulnérabilité est respectée et comprise.</p>
+            </div>
+          </div>
+          <!-- Valeur 2 -->
+          <div class="info-card">
+            <div class="info-card-icon"><i data-lucide="shield"></i></div>
+            <div class="info-card-text">
+              <h4>La dignité de l'enfant</h4>
+              <p>Chaque enfant, quel que soit son handicap, a le droit d'être accompagné avec dignité, respect et d'avoir sa place dans notre société.</p>
+            </div>
+          </div>
+          <!-- Valeur 3 -->
+          <div class="info-card">
+            <div class="info-card-icon"><i data-lucide="handshake"></i></div>
+            <div class="info-card-text">
+              <h4>La solidarité active</h4>
+              <p>Nous brisons l'isolement en créant un réseau fort entre parents, professionnels et bénévoles à Bruxelles et en Wallonie.</p>
+            </div>
+          </div>
+          <!-- Valeur 4 -->
+          <div class="info-card">
+            <div class="info-card-icon"><i data-lucide="home"></i></div>
+            <div class="info-card-text">
+              <h4>La proximité humaine</h4>
+              <p>Nous croyons à la présence physique, aux visites à domicile, aux moments de partage réels. L'humain est au centre de notre ASBL.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PHILOSOPHIE ET PARRAINAGE (Inspiration de La Vague) -->
+    <section class="section section-alt">
+      <div class="container grid-2">
+        <div>
+          <span class="badge">Inspiration & Actions</span>
+          <h2>Un accompagnement global de la famille</h2>
+          <p>Inspirée par des services bienveillants comme <em>La Vague</em> et <em>Sapham</em>, Sonia ASBL a pour vocation d'intervenir de manière transversale pour briser la solitude des familles face au handicap.</p>
+          
+          <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--primary);">L'Accompagnement de Proximité</h3>
+          <p>Nos professionnels interviennent à domicile ou sur les lieux de vie pour aider les parents dans leurs démarches quotidiennes, la coordination des soins et le soutien psychologique.</p>
+          
+          <h3 style="margin-top: 2rem; margin-bottom: 1rem; color: var(--primary);">Le Parrainage de Répit (Temps Partiel)</h3>
+          <p>Le parrainage consiste à confier ponctuellement l'enfant (un week-end par mois ou quelques jours durant les vacances) à un parrain ou une marraine bénévole agréé(e). C'est une relation d'affection et de partage qui offre un répit indispensable aux parents et une ouverture sociale pour l'enfant.</p>
+        </div>
+        <div>
+          <img src="assets/accompagnement.png" alt="Counseling bienveillant et soutien aux parents" style="width: 100%; box-shadow: var(--shadow-md);">
+        </div>
+      </div>
+    </section>
+
+    <!-- NOTRE EQUIPE PLURIDISCIPLINAIRE -->
+    <section class="section">
+      <div class="container">
+        <div class="text-center max-w-600" style="margin-bottom: 2rem;">
+          <span class="badge">Sérieux & Professionnalisme</span>
+          <h2>Notre Équipe Pluridisciplinaire</h2>
+          <p class="text-standard">Pour accompagner efficacement les familles, Sonia ASBL réunit des professionnels formés et à l'écoute.</p>
+          <p class="text-falc">Des professionnels formés et à votre écoute pour vous aider.</p>
+        </div>
+
+        <div class="team-filters">
+          <button class="team-filter-btn active" data-filter="all">Tous</button>
+          <button class="team-filter-btn" data-filter="accompagnement">Accompagnement & Répit</button>
+          <button class="team-filter-btn" data-filter="social">Social & Droits</button>
+          <button class="team-filter-btn" data-filter="admin">Direction & Admin</button>
+        </div>
+
+        <div class="team-grid">
+          <!-- Sonia -->
+          <div class="team-card" data-pole="admin">
+            <div class="team-card-image"><img src="assets/fondatrice.png" alt="Portrait de Sonia"></div>
+            <h4 class="team-name">Sonia</h4>
+            <div class="team-role">Fondatrice & Coordinatrice</div>
+            <p class="team-desc text-standard">À l'origine du projet, Sonia coordonne l'équipe pluridisciplinaire et assure le premier contact chaleureux avec les familles.</p>
+            <p class="team-desc text-falc">Sonia a créé l'ASBL. Elle coordonne l'équipe et parle aux nouvelles familles.</p>
+          </div>
+
+          <!-- Sarah -->
+          <div class="team-card" data-pole="social">
+            <div class="team-avatar-icon"><i data-lucide="heart-handshake"></i></div>
+            <h4 class="team-name">Sarah</h4>
+            <div class="team-role">Assistante Sociale</div>
+            <p class="team-desc text-standard">Spécialiste des démarches d'allocations belges (SPF Social, PHARE). Elle vous épaule dans tous vos dossiers administratifs.</p>
+            <p class="team-desc text-falc">Sarah est assistante sociale. Elle vous aide pour les dossiers et les aides d'argent en Belgique.</p>
+          </div>
+
+          <!-- Marc -->
+          <div class="team-card" data-pole="accompagnement">
+            <div class="team-avatar-icon"><i data-lucide="smile"></i></div>
+            <h4 class="team-name">Marc</h4>
+            <div class="team-role">Éducateur Spécialisé</div>
+            <p class="team-desc text-standard">Marc anime les activités de répit adaptées et gère notre halte-accueil « La Récré » pour les petits de 0 à 6 ans.</p>
+            <p class="team-desc text-falc">Marc est éducateur. Il s'occupe de la halte-accueil « La Récré » pour les enfants de 0 à 6 ans.</p>
+          </div>
+
+          <!-- Émilie -->
+          <div class="team-card" data-pole="accompagnement">
+            <div class="team-avatar-icon"><i data-lucide="brain"></i></div>
+            <h4 class="team-name">Émilie</h4>
+            <div class="team-role">Psychologue Clinicienne</div>
+            <p class="team-desc text-standard">Elle supervise nos groupes de parole mensuels à Bruxelles et propose des séances d'écoute psychologique individuelle aux parents.</p>
+            <p class="team-desc text-falc">Émilie est psychologue. Elle anime les groupes de parole pour discuter et libérer votre parole.</p>
+          </div>
+
+          <!-- Thomas -->
+          <div class="team-card" data-pole="accompagnement">
+            <div class="team-avatar-icon"><i data-lucide="users"></i></div>
+            <h4 class="team-name">Thomas</h4>
+            <div class="team-role">Coordinateur Parrainages</div>
+            <p class="team-desc text-standard">Thomas recrute, forme et encadre les parrains de répit pour assurer la sécurité et la complicité des séjours des enfants.</p>
+            <p class="team-desc text-falc">Thomas s'occupe des parrains et marraines bénévoles qui accueillent les enfants le week-end.</p>
+          </div>
+
+          <!-- Pierre -->
+          <div class="team-card" data-pole="admin">
+            <div class="team-avatar-icon"><i data-lucide="file-text"></i></div>
+            <h4 class="team-name">Pierre</h4>
+            <div class="team-role">Secrétaire Général</div>
+            <p class="team-desc text-standard">Il assure la logistique des événements, le lien avec nos partenaires institutionnels et la gestion des subventions de la COCOF.</p>
+            <p class="team-desc text-falc">Pierre s'occupe de la logistique, du secrétariat et des partenaires bruxellois.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION HISTOIRE PERSONNELLE DU SITE PRINCIPAL (Rappel court) -->
+    <section class="section text-center" style="background-color: var(--primary-light);">
+      <div class="container max-w-800">
+        <h2 style="color: var(--primary); font-family: var(--font-headings); font-weight: 700;">« Ensemble, nous pouvons créer plus de soutien autour des familles. »</h2>
+        <p style="color: var(--text-main); font-size: 1.15rem; margin-top: 1rem;">— Sonia ASBL, à vos côtés face au handicap.</p>
+        <div class="btn-group" style="justify-content: center; margin-top: 2rem;">
+          <a href="contact.html" class="btn btn-primary">Demander un accompagnement</a>
+          <a href="don.html" class="btn btn-accent">Soutenir notre mission</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FLOATING ACTIONS -->
+  <div class="floating-actions">
+    <a href="https://wa.me/32470000000" class="btn-float btn-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contacter Sonia ASBL sur WhatsApp">
+      <i data-lucide="message-circle" style="width: 2rem; height: 2rem;"></i>
+    </a>
+    <button class="btn-float btn-scroll-top" id="scrollTopBtn" aria-label="Retourner en haut de la page">
+      <i data-lucide="arrow-up" style="width: 1.5rem; height: 1.5rem;"></i>
+    </button>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo footer-logo" aria-label="Sonia ASBL - Retour à l'accueil">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="var(--accent)" stroke="var(--bg-secondary)"/>
+            </svg>
+            <span style="color: var(--bg-secondary);">Sonia</span>
+          </a>
+          <p>Une ASBL engagée au cœur de Bruxelles pour briser la solitude des parents et redonner espoir aux familles d'enfants en situation de handicap.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Suivre Sonia ASBL sur Facebook"><i data-lucide="facebook"></i></a>
+            <a href="#" class="social-icon" aria-label="Suivre Sonia ASBL sur Instagram"><i data-lucide="instagram"></i></a>
+            <a href="https://wa.me/32470000000" class="social-icon" aria-label="Contacter Sonia ASBL sur WhatsApp"><i data-lucide="message-circle"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4>L'Association</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Accueil</a></li>
+            <li><a href="mission.html" class="footer-link">Notre mission</a></li>
+            <li><a href="actualites.html" class="footer-link">Actualités</a></li>
+            <li><a href="contact.html" class="footer-link">Nous contacter</a></li>
+            <li><a href="don.html" class="footer-link" style="color: var(--accent); font-weight: 600;">Faire un don</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact & Info</h4>
+          <div class="footer-contact-item">
+            <i data-lucide="phone" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              <a href="tel:+32470000000">+32 (0) 470 00 00 00</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i data-lucide="mail" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              <a href="mailto:contact@sonia.be">contact@sonia.be</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i data-lucide="map-pin" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              Avenue Louise 150,<br>1050 Bruxelles, Belgique
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sonia ASBL. Tous droits réservés. Numéro d'entreprise : 0800.000.000</p>
+        <div class="footer-legal-links">
+          <a href="#" class="footer-legal-link">Mentions légales</a>
+          <a href="#" class="footer-legal-link">Confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>

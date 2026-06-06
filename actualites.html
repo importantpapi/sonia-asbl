@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actualités & FAQ | Sonia ASBL - Événements et Conseils</title>
+  <meta name="description" content="Retrouvez les dernières actualités de Sonia ASBL, nos prochains événements de soutien à Bruxelles et notre foire aux questions complète pour les parents.">
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  
+  <!-- Lucide Icons CDN -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header" id="header">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo" aria-label="Sonia ASBL - Retour à l'accueil">
+        <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="var(--accent)" stroke="var(--primary)"/>
+          <circle cx="12" cy="9.5" r="2.5" fill="none" stroke="var(--bg-primary)" stroke-width="2"/>
+        </svg>
+        <span>Sonia</span>
+      </a>
+      
+      <!-- Desktop Menu -->
+      <nav class="nav-menu" aria-label="Navigation principale">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Accueil</a></li>
+          <li><a href="mission.html" class="nav-link">Notre mission</a></li>
+          <li><a href="actualites.html" class="nav-link">Actualités</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <div class="falc-toggle-container">
+        <button class="falc-toggle-btn" aria-label="Version Facile à Lire et à Comprendre">
+          <i data-lucide="accessibility"></i>
+          <span>Version FALC (Facile à lire)</span>
+        </button>
+      </div>
+      
+      <div class="nav-actions">
+        <a href="don.html" class="btn btn-accent">Faire un don</a>
+      </div>
+      
+      <!-- Mobile menu trigger -->
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mobileNav" aria-label="Ouvrir le menu">
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+        <span class="nav-toggle-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- MOBILE NAVIGATION OVERLAY -->
+  <div class="mobile-nav" id="mobileNav" aria-hidden="true">
+    <nav aria-label="Navigation mobile">
+      <ul class="mobile-nav-list">
+        <li><a href="index.html" class="mobile-nav-link">Accueil</a></li>
+        <li><a href="mission.html" class="mobile-nav-link">Notre mission</a></li>
+        <li><a href="actualites.html" class="mobile-nav-link">Actualités</a></li>
+        <li><a href="contact.html" class="mobile-nav-link">Contact</a></li>
+        <li><a href="don.html" class="mobile-nav-link btn btn-accent" style="color: white; margin-top: 1rem;">Faire un don</a></li>
+        <li class="mobile-falc-li">
+          <button class="falc-toggle-btn" aria-label="Version Facile à Lire et à Comprendre">
+            <i data-lucide="accessibility"></i>
+            <span>Version FALC (Facile à lire)</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <main>
+    <!-- HERO DE LA PAGE -->
+    <section class="section section-warm text-center">
+      <div class="container max-w-800">
+        <span class="badge">Vie de l'ASBL</span>
+        <h1 style="margin-bottom: 1.5rem;">Actualités & Informations</h1>
+        <p class="intro-lead text-standard" style="margin-bottom: 0;">Restez informé de nos activités à Bruxelles, de nos prochains ateliers de répit pour les parents, et accédez à nos fiches de conseils pratiques.</p>
+        <p class="intro-lead text-falc" style="margin-bottom: 0;">Retrouvez ici les nouvelles de l'ASBL et les questions-réponses pour vous aider.</p>
+      </div>
+    </section>
+
+    <!-- ARTICLES GRID -->
+    <section class="section">
+      <div class="container">
+        <div class="grid-3">
+          <!-- Article 1 -->
+          <article class="news-card">
+            <div class="news-img-wrapper">
+              <img src="assets/hero-parent.png" alt="Réunion de groupe" class="news-img">
+            </div>
+            <div class="news-body">
+              <div class="news-meta">
+                <span><i data-lucide="calendar" style="width: 0.85rem; height: 0.85rem; vertical-align: middle;"></i> 5 Juin 2026</span>
+                <span>Bruxelles</span>
+              </div>
+              <h3 class="news-title">Lancement de nos permanences d'écoute</h3>
+              <p class="news-text">Dès ce mois-ci, Sonia ASBL met en place des permanences téléphoniques et physiques bi-mensuelles pour accueillir les parents en recherche d'écoute.</p>
+              <a href="#" class="news-link">Lire l'article <span class="sr-only">sur le lancement de nos permanences</span></a>
+            </div>
+          </article>
+
+          <!-- Article 2 -->
+          <article class="news-card">
+            <div class="news-img-wrapper">
+              <img src="assets/accompagnement.png" alt="Atelier de soutien" class="news-img">
+            </div>
+            <div class="news-body">
+              <div class="news-meta">
+                <span><i data-lucide="calendar" style="width: 0.85rem; height: 0.85rem; vertical-align: middle;"></i> 20 Mai 2026</span>
+                <span>Atelier</span>
+              </div>
+              <h3 class="news-title">Retour sur notre premier groupe de parole</h3>
+              <p class="news-text">Un moment d'une rare intensité émotionnelle où 12 mamans et papas ont pu échanger sur le sentiment de solitude face au diagnostic du handicap.</p>
+              <a href="#" class="news-link">Lire l'article <span class="sr-only">sur le retour de notre groupe de parole</span></a>
+            </div>
+          </article>
+
+          <!-- Article 3 -->
+          <article class="news-card">
+            <div class="news-img-wrapper">
+              <img src="assets/fondatrice.png" alt="Sonia de Sonia ASBL" class="news-img">
+            </div>
+            <div class="news-body">
+              <div class="news-meta">
+                <span><i data-lucide="calendar" style="width: 0.85rem; height: 0.85rem; vertical-align: middle;"></i> 12 Avril 2026</span>
+                <span>Guide Pratique</span>
+              </div>
+              <h3 class="news-title">Guide des aides financières en Belgique</h3>
+              <p class="news-text">Quelles sont les allocations d'intégration (familles avec enfant handicapé) et comment effectuer votre demande auprès du SPF Social ?</p>
+              <a href="#" class="news-link">Lire le guide <span class="sr-only">sur les aides financières en Belgique</span></a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ SECTION COMPLETE -->
+    <section class="section section-warm">
+      <div class="container max-w-800">
+        <div class="text-center">
+          <span class="badge">Aide & FAQ</span>
+          <h2>Questions Fréquentes (FAQ)</h2>
+          <p class="text-standard">Retrouvez les questions les plus courantes posées par les parents qui nous contactent.</p>
+          <p class="text-falc">Des réponses claires à vos questions importantes.</p>
+        </div>
+
+        <div class="faq-search-wrapper">
+          <div class="faq-search-control">
+            <i data-lucide="search" class="faq-search-icon"></i>
+            <input type="text" id="faqSearchInput" class="faq-search-input" placeholder="Rechercher une question (ex: parrainage, gratuit, Bruxelles...)">
+          </div>
+          <div class="faq-filter-tabs">
+            <button class="faq-filter-btn active" data-category="all">Toutes</button>
+            <button class="faq-filter-btn" data-category="parrainage">Le Parrainage</button>
+            <button class="faq-filter-btn" data-category="halte-accueil">La Halte-Accueil</button>
+            <button class="faq-filter-btn" data-category="accompagnement">L'Accompagnement</button>
+            <button class="faq-filter-btn" data-category="don">Dons & Fiscalité</button>
+          </div>
+        </div>
+
+        <div class="faq-wrapper">
+          <!-- FAQ 1 -->
+          <div class="faq-item" data-category="accompagnement">
+            <button class="faq-trigger" aria-expanded="false">
+              <span class="text-standard">Comment se déroule le premier contact avec l'ASBL ?</span>
+              <span class="text-falc">Comment se passe le premier contact avec Sonia ASBL ?</span>
+              <i data-lucide="chevron-down" class="faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p class="text-standard">Le premier contact se fait généralement par téléphone, WhatsApp ou e-mail. Nous planifions ensuite une rencontre simple et informelle chez vous ou dans nos bureaux pour faire connaissance, sans aucune démarche contraignante.</p>
+              <p class="text-falc">Vous pouvez nous téléphoner, nous envoyer un message WhatsApp ou un e-mail. Ensuite, nous nous rencontrons simplement pour faire connaissance.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 2 -->
+          <div class="faq-item" data-category="accompagnement">
+            <button class="faq-trigger" aria-expanded="false">
+              <span class="text-standard">L'accompagnement et l'écoute sont-ils payants ?</span>
+              <span class="text-falc">Est-ce que l'aide est payante ?</span>
+              <i data-lucide="chevron-down" class="faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p class="text-standard">Non. L'ensemble de nos services d'écoute, d'orientation administrative et de participation aux groupes de parole est entièrement gratuit pour les familles. L'ASBL fonctionne grâce aux dons et aux subventions.</p>
+              <p class="text-falc">Non. Notre aide, nos conseils et les groupes de parole sont <span class="falc-keyword">gratuits</span>. Vous ne devez rien payer.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 3 -->
+          <div class="faq-item" data-category="parrainage">
+            <button class="faq-trigger" aria-expanded="false">
+              <span class="text-standard">En quoi consiste le Parrainage de Répit et comment s'organise-t-il ?</span>
+              <span class="text-falc">C'est quoi le parrainage de répit ?</span>
+              <i data-lucide="chevron-down" class="faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p class="text-standard">Le parrainage est un accueil partiel et bénévole (par exemple, un week-end par mois et/ou une semaine pendant les vacances scolaires) d'un enfant en situation de handicap par un parrain ou une marraine (célibataire ou en couple). Il permet aux parents de s'accorder un moment de répit tout en offrant à l'enfant une ouverture sociale enrichissante.</p>
+              <p class="text-falc">Un bénévole accueille votre enfant 1 week-end par mois. Cela vous permet de vous <span class="falc-keyword">reposer</span>. L'enfant fait des sorties et s'amuse.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 4 -->
+          <div class="faq-item" data-category="parrainage">
+            <button class="faq-trigger" aria-expanded="false">
+              <span class="text-standard">Quelles sont les conditions et étapes pour devenir parrain ou marraine ?</span>
+              <span class="text-falc">Comment devenir parrain ou marraine ?</span>
+              <i data-lucide="chevron-down" class="faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p class="text-standard">Il n'y a pas de profil type, mais il est nécessaire de résider à Bruxelles ou dans sa périphérie (max. 50 km). Devenir parrain est un engagement sérieux : le processus comprend une série d'entretiens (environ 8 rencontres sur une période de 6 mois) avec notre équipe pluridisciplinaire, ainsi qu'une formation, pour garantir l'adéquation et la sécurité du projet de parrainage.</p>
+              <p class="text-falc">Il faut habiter à Bruxelles ou à côté (moins de 50 kilomètres). Nous faisons 8 discussions avec vous pendant 6 mois pour savoir si vous êtes prêt.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 5 -->
+          <div class="faq-item" data-category="parrainage">
+            <button class="faq-trigger" aria-expanded="false">
+              <span class="text-standard">Les parrains et marraines reçoivent-ils une rémunération ?</span>
+              <span class="text-falc">Est-ce que les parrains gagnent de l'argent ?</span>
+              <i data-lucide="chevron-down" class="faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p class="text-standard">Non, le parrainage est une action entièrement bénévole et citoyenne. Cependant, l'ASBL prend en charge les frais liés au quotidien de l'enfant (nourriture, activités) durant ses séjours chez vous, ou via des indemnités forfaitaires pour ne pas peser sur le budget du parrain.</p>
+              <p class="text-falc">Non. Le parrainage est <span class="falc-keyword">gratuit et bénévole</span>. Mais l'ASBL paye les repas et les sorties de l'enfant pendant l'accueil.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 6 -->
+          <div class="faq-item" data-category="accompagnement">
+            <button class="faq-trigger" aria-expanded="false">
+              <span class="text-standard">Accompagnez-vous également les adultes en situation de handicap ?</span>
+              <span class="text-falc">Est-ce que vous aidez aussi les adultes ?</span>
+              <i data-lucide="chevron-down" class="faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p class="text-standard">Sonia ASBL concentre principalement ses actions directes (comme le parrainage ou la halte-accueil "La Récré") sur les enfants et adolescents (0-18 ans) et leurs parents. Pour les adultes, nous travaillons en réseau étroit avec des partenaires spécialisés à Bruxelles comme <strong>Sapham ASBL</strong> ou d'autres services d'accompagnement pour assurer une transition fluide vers l'âge adulte.</p>
+              <p class="text-falc">Non, nous aidons surtout les <span class="falc-keyword">enfants</span> de 0 à 18 ans. Pour les adultes, nous vous orientons vers des partenaires spécialisés comme Sapham ASBL.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 7 -->
+          <div class="faq-item" data-category="don">
+            <button class="faq-trigger" aria-expanded="false">
+              <span class="text-standard">Les dons sont-ils fiscalement déductibles en Belgique ?</span>
+              <span class="text-falc">Est-ce que j'ai une réduction d'impôts avec mon don ?</span>
+              <i data-lucide="chevron-down" class="faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p class="text-standard">Oui. Conformément à la législation belge, tout don égal ou supérieur à 40 € par année civile fait l'objet d'une attestation fiscale. Celle-ci vous donne droit à une réduction d'impôt de 45% sur le montant versé.</p>
+              <p class="text-falc">Oui, si vous donnez <span class="falc-keyword">40 € ou plus</span> dans l'année. L'État vous rend 45% de cette somme en réduction d'impôt.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 8 -->
+          <div class="faq-item" data-category="accompagnement">
+            <button class="faq-trigger" aria-expanded="false">
+              <span class="text-standard">Comment introduire une demande de parrainage ou d'accompagnement pour mon enfant ?</span>
+              <span class="text-falc">Comment demander de l'aide pour mon enfant ?</span>
+              <i data-lucide="chevron-down" class="faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p class="text-standard">Le processus comprend un premier entretien téléphonique ou une rencontre, une visite à domicile par notre éducateur pour comprendre les besoins spécifiques de votre enfant (handicap physique, mental, sensoriel ou autisme), puis une mise en relation progressive avec un parrain agréé.</p>
+              <p class="text-falc">Appelez-nous ou écrivez-nous. Nous venons vous voir à la maison pour discuter et trouver le meilleur parrain pour votre enfant.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 9 -->
+          <div class="faq-item" data-category="accompagnement">
+            <button class="faq-trigger" aria-expanded="false">
+              <span class="text-standard">Quelles communes et zones géographiques sont couvertes par votre ASBL ?</span>
+              <span class="text-falc">Dans quelles communes travaillez-vous ?</span>
+              <i data-lucide="chevron-down" class="faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p class="text-standard">Sonia ASBL intervient dans toute la Région de Bruxelles-Capitale (les 19 communes). Pour le parrainage de répit, nous acceptons également les familles et les parrains habitant dans un Brabant (wallon ou flamand) dans un rayon de 50 km autour de Bruxelles.</p>
+              <p class="text-falc">Nous travaillons dans toute la ville de <span class="falc-keyword">Bruxelles</span> et autour jusqu'à 50 kilomètres.</p>
+            </div>
+          </div>
+
+          <!-- FAQ 10 -->
+          <div class="faq-item" data-category="halte-accueil">
+            <button class="faq-trigger" aria-expanded="false">
+              <span class="text-standard">Quelle est la différence entre le parrainage et la halte-accueil « La Récré » ?</span>
+              <span class="text-falc">Quelle est la différence entre le parrainage et la halte-accueil ?</span>
+              <i data-lucide="chevron-down" class="faq-icon"></i>
+            </button>
+            <div class="faq-content">
+              <p class="text-standard">La halte-accueil « La Récré » est une garderie spécialisée en journée (pour quelques heures) pour les enfants de 0 à 6 ans. Le parrainage de répit est un accueil à domicile chez un bénévole agréé, pendant le week-end ou les vacances, pour les enfants de 0 à 18 ans.</p>
+              <p class="text-falc">La halte-accueil est une garderie pour quelques heures en journée (enfants de 0 à 6 ans). Le parrainage est un accueil chez un bénévole pour le week-end (enfants de 0 à 18 ans).</p>
+            </div>
+          </div>
+        </div>ion d'impôt de 45% sur le montant versé.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FLOATING ACTIONS -->
+  <div class="floating-actions">
+    <a href="https://wa.me/32470000000" class="btn-float btn-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Contacter Sonia ASBL sur WhatsApp">
+      <i data-lucide="message-circle" style="width: 2rem; height: 2rem;"></i>
+    </a>
+    <button class="btn-float btn-scroll-top" id="scrollTopBtn" aria-label="Retourner en haut de la page">
+      <i data-lucide="arrow-up" style="width: 1.5rem; height: 1.5rem;"></i>
+    </button>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo footer-logo" aria-label="Sonia ASBL - Retour à l'accueil">
+            <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" fill="var(--accent)" stroke="var(--bg-secondary)"/>
+            </svg>
+            <span style="color: var(--bg-secondary);">Sonia</span>
+          </a>
+          <p>Une ASBL engagée au cœur de Bruxelles pour briser la solitude des parents et redonner espoir aux familles d'enfants en situation de handicap.</p>
+          <div class="social-links">
+            <a href="#" class="social-icon" aria-label="Suivre Sonia ASBL sur Facebook"><i data-lucide="facebook"></i></a>
+            <a href="#" class="social-icon" aria-label="Suivre Sonia ASBL sur Instagram"><i data-lucide="instagram"></i></a>
+            <a href="https://wa.me/32470000000" class="social-icon" aria-label="Contacter Sonia ASBL sur WhatsApp"><i data-lucide="message-circle"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4>L'Association</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Accueil</a></li>
+            <li><a href="mission.html" class="footer-link">Notre mission</a></li>
+            <li><a href="actualites.html" class="footer-link">Actualités</a></li>
+            <li><a href="contact.html" class="footer-link">Nous contacter</a></li>
+            <li><a href="don.html" class="footer-link" style="color: var(--accent); font-weight: 600;">Faire un don</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4>Contact & Info</h4>
+          <div class="footer-contact-item">
+            <i data-lucide="phone" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              <a href="tel:+32470000000">+32 (0) 470 00 00 00</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i data-lucide="mail" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              <a href="mailto:contact@sonia.be">contact@sonia.be</a>
+            </div>
+          </div>
+          <div class="footer-contact-item">
+            <i data-lucide="map-pin" class="footer-contact-icon"></i>
+            <div class="footer-contact-text">
+              Avenue Louise 150,<br>1050 Bruxelles, Belgique
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Sonia ASBL. Tous droits réservés. Numéro d'entreprise : 0800.000.000</p>
+        <div class="footer-legal-links">
+          <a href="#" class="footer-legal-link">Mentions légales</a>
+          <a href="#" class="footer-legal-link">Confidentialité</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
