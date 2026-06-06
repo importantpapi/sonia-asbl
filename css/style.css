@@ -480,6 +480,7 @@ select:focus-visible {
   }
   .nav-menu {
     display: block;
+    margin-left: auto;
   }
   .nav-list {
     list-style: none;
@@ -1463,6 +1464,14 @@ textarea.form-control {
   transform: translateY(-4px) scale(1.05);
 }
 
+.btn-float svg {
+  width: 1.75rem;
+  height: 1.75rem;
+  stroke: currentColor;
+  stroke-width: 2.5;
+  display: block;
+}
+
 .btn-whatsapp {
   background-color: #25D366;
   color: white;
@@ -1624,7 +1633,7 @@ textarea.form-control {
 .falc-toggle-container {
   display: flex;
   align-items: center;
-  margin-left: auto;
+  margin-left: 2rem;
   margin-right: 1.5rem;
 }
 
@@ -1974,4 +1983,61 @@ body.falc-mode .btn {
   color: var(--primary);
   stroke-width: 1.5;
 }
+
+/* ==========================================================================
+   AMÉLIORATIONS UI : CORRECTIFS DE TAILLES DES ICÔNES LUCIDE
+   ========================================================================== */
+
+/* Règle globale pour tous les SVG Lucide */
+svg.lucide {
+  width: 1.25em;
+  height: 1.25em;
+  stroke: currentColor;
+  stroke-width: 2.25;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Ajustement spécifique pour les boutons */
+.btn svg.lucide {
+  margin-right: 0.35rem;
+  flex-shrink: 0;
+}
+
+/* Ajustements de taille pour les icônes dans divers badges et cercles */
+.hero-badge-icon svg {
+  width: 1.15rem;
+  height: 1.15rem;
+}
+
+.card-icon svg {
+  width: 1.75rem;
+  height: 1.75rem;
+}
+
+.pathway-icon svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.info-card-icon svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.team-avatar-icon svg {
+  width: 2.25rem;
+  height: 2.25rem;
+}
+
+.social-icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+.footer-contact-icon svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
 
