@@ -57,6 +57,7 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
   -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
 }
 
 body {
@@ -67,6 +68,8 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeSpeed;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -445,6 +448,7 @@ select:focus-visible {
   padding: 2rem;
   transform: translateX(100%);
   transition: transform var(--transition-normal);
+  will-change: transform;
   overflow-y: auto;
 }
 
@@ -1456,7 +1460,8 @@ textarea.form-control {
   justify-content: center;
   box-shadow: var(--shadow-lg);
   cursor: pointer;
-  transition: all var(--transition-normal);
+  transition: transform var(--transition-normal), opacity var(--transition-normal), background-color var(--transition-normal);
+  will-change: transform, opacity;
   border: none;
 }
 

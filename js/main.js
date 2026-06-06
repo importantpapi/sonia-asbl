@@ -12,19 +12,28 @@ document.addEventListener('DOMContentLoaded', () => {
   const header = document.getElementById('header');
   const scrollTopBtn = document.getElementById('scrollTopBtn');
 
+  let scrollTimeout;
   window.addEventListener('scroll', () => {
-    if (window.scrollY > 50) {
-      header.classList.add('header-scrolled');
-    } else {
-      header.classList.remove('header-scrolled');
-    }
+    if (!scrollTimeout) {
+      window.requestAnimationFrame(() => {
+        if (window.scrollY > 50) {
+          header.classList.add('header-scrolled');
+        } else {
+          header.classList.remove('header-scrolled');
+        }
 
-    if (window.scrollY > 300) {
-      scrollTopBtn.classList.add('visible');
-    } else {
-      scrollTopBtn.classList.remove('visible');
+        if (scrollTopBtn) {
+          if (window.scrollY > 300) {
+            scrollTopBtn.classList.add('visible');
+          } else {
+            scrollTopBtn.classList.remove('visible');
+          }
+        }
+        scrollTimeout = false;
+      });
+      scrollTimeout = true;
     }
-  });
+  }, { passive: true });
 
   // Scroll to Top action
   if (scrollTopBtn) {
